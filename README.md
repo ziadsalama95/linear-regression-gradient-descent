@@ -1,8 +1,8 @@
 # [Gradient Descent for Linear Regression](https://github.com/ziadsalama95/linear-regression-gradient-descent/blob/main/Gradient_Descent_Linear_Regression.ipynb)
 
-Welcome! In this notebook, we’ll explore **Linear Regression** and how to fit a line to data using **Gradient Descent**. By the end of this notebook, you’ll understand how to:
+Welcome! In this notebook, we’ll explore **Linear Regression** and how to fit a line to data using **[Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md)**. By the end of this notebook, you’ll understand how to:
 1. Define a linear model.
-2. Use Gradient Descent to minimize the **Mean Squared Error (MSE)**.
+2. Use [Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md) to minimize the **Mean Squared Error (MSE)**.
 3. Visualize the convergence of the algorithm and the best-fit line.
 
 Let’s get started!
@@ -108,9 +108,9 @@ def compute_gradient(theta, X, y):
 
 ---
 
-## Step 4: Implement Gradient Descent
+## Step 4: Implement [Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md)
 
-Gradient Descent is an iterative algorithm that updates the parameters $m$ and $b$ to minimize the MSE. The update rule is:
+[Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md) is an iterative algorithm that updates the parameters $m$ and $b$ to minimize the MSE. The update rule is:
 
 $$
 \theta_{\text{new}} = \theta_{\text{old}} - \alpha \cdot \nabla J(\theta_{\text{old}})
@@ -166,7 +166,7 @@ Final cost: 0.8065976258942447
 
 ## Step 5: Visualize the Convergence
 
-Let’s plot the cost function over iterations to see how Gradient Descent converges:
+Let’s plot the cost function over iterations to see how [Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md) converges:
 
 ```python
 plt.plot(cost_history, linestyle='dashed')
@@ -185,7 +185,7 @@ plt.show()
 
 ## Step 6: Plot the Best-Fit Line
 
-Finally, let’s plot the best-fit line using the optimal parameters found by Gradient Descent:
+Finally, let’s plot the best-fit line using the optimal parameters found by [Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md):
 
 ```python
 plt.scatter(X, y, color='blue', label='Data points')
@@ -204,7 +204,7 @@ plt.show()
 
 ## Key Takeaways
 
-1. **Gradient Descent:** An iterative algorithm to minimize the cost function by adjusting the parameters in the direction of the steepest descent.
+1. **[Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md):** An iterative algorithm to minimize the cost function by adjusting the parameters in the direction of the steepest descent.
 2. **Learning Rate ($\alpha$):** Controls the step size. If it’s too large, the algorithm may overshoot the minimum; if it’s too small, convergence will be slow.
 3. **Mean Squared Error (MSE):** Measures the average squared difference between the predicted and actual values.
 4. **Best-Fit Line:** The line that minimizes the MSE and best represents the relationship between $X$ and $y$.
@@ -218,7 +218,7 @@ Feel free to experiment with:
 - Different initial values for $m$ and $b$.
 - Different datasets.
 
-Observe how these changes affect the convergence of Gradient Descent and the best-fit line.
+Observe how these changes affect the convergence of [Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md) and the best-fit line.
 
 ---
 
