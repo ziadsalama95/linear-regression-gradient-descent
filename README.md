@@ -1,4 +1,4 @@
-#[Gradient Descent for Linear Regression](https://github.com/ziadsalama95/linear-regression-gradient-descent/blob/main/Gradient_Descent_Linear_Regression.ipynb)
+# [Gradient Descent for Linear Regression](https://github.com/ziadsalama95/linear-regression-gradient-descent/blob/main/Gradient_Descent_Linear_Regression.ipynb)
 
 Welcome! In this notebook, we’ll explore **Linear Regression** and how to fit a line to data using **Gradient Descent**. By the end of this notebook, you’ll understand how to:
 1. Define a linear model.
