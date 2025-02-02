@@ -172,4 +172,4 @@ plt.legend()
 plt.show()
 ```
 
----
+![Linear Regression: Best Fit Line](https://raw.githubusercontent.com/ziadsalama95/linear-regression-gradient-descent/refs/heads/main/Linear%20Regression%20Best%20Fit%20Line.png)
