@@ -4,21 +4,6 @@ This repository contains a Jupyter Notebook that demonstrates how to implement *
 
 ---
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Key Concepts](#key-concepts)
-   - [Linear Regression](#linear-regression)
-   - [Gradient Descent](#gradient-descent)
-   - [Mean Squared Error (MSE)](#mean-squared-error-mse)
-3. [Notebook Walkthrough](#notebook-walkthrough)
-   - [Data Generation](#data-generation)
-   - [Cost Function and Gradient Calculation](#cost-function-and-gradient-calculation)
-   - [Gradient Descent Algorithm](#gradient-descent-algorithm)
-   - [Visualizing Convergence](#visualizing-convergence)
-   - [Best-Fit Line](#best-fit-line)
-
----
-
 ## Introduction
 
 Linear regression is one of the simplest and most widely used machine learning algorithms. It models the relationship between a dependent variable $y$ and one or more independent variables $X$ by fitting a linear equation to the observed data. In this notebook, we implement **gradient descent**, an optimization algorithm, to find the optimal parameters (slope $m$ and intercept $b$) for the linear model.
