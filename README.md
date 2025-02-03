@@ -27,7 +27,7 @@ Our task is to find the optimal values of $m$ and $b$ that minimize the **Mean S
 
 ---
 
-## Step 1: Generate and Visualize the Data
+## Generate and Visualize the Data
 
 We’ll start by generating some synthetic data for our linear regression problem. The data is generated using the equation:
 
@@ -60,7 +60,7 @@ plt.show()
 
 ---
 
-## Step 2: Define the Cost Function (MSE)
+## Define the Cost Function (MSE)
 
 The **Mean Squared Error (MSE)** is the average squared difference between the predicted values $\hat{y}$ and the actual values $y$. It’s defined as:
 
@@ -85,7 +85,7 @@ def compute_cost(theta, X, y):
 
 ---
 
-## Step 3: Compute the Gradient
+## Compute the Gradient
 
 The gradient of the cost function tells us how to adjust the parameters $m$ and $b$ to minimize the MSE. The gradients with respect to $m$ and $b$ are:
 
@@ -108,7 +108,7 @@ def compute_gradient(theta, X, y):
 
 ---
 
-## Step 4: Implement [Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md)
+## Implement [Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md)
 
 [Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md) is an iterative algorithm that updates the parameters $m$ and $b$ to minimize the MSE. The update rule is:
 
@@ -164,7 +164,7 @@ Final cost: 0.8065976258942447
 
 ---
 
-## Step 5: Visualize the Convergence
+## Visualize the Convergence
 
 Let’s plot the cost function over iterations to see how [Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md) converges:
 
@@ -183,7 +183,22 @@ plt.show()
 
 ---
 
-## Step 6: Plot the Best-Fit Line
+## Watch Gradient Descent in Action!
+
+Here’s a cool animation showing how gradient descent works its magic:
+
+![Gradient Descent Animation](https://raw.githubusercontent.com/ziadsalama95/linear-regression-gradient-descent/refs/heads/main/gradient_descent.gif)
+
+What’s happening here:
+- The **red line** is the current guess for the best-fit line.
+- The **green dashed line** is the final, optimal fit.
+- You can see the cost (MSE) decreasing as the algorithm improves the fit.
+
+It’s like watching the line "learn" where it should be!
+
+---
+
+## Plot the Best-Fit Line
 
 Finally, let’s plot the best-fit line using the optimal parameters found by [Gradient Descent](https://github.com/ziadsalama95/gradient-descent-visualization/blob/main/README.md):
 
